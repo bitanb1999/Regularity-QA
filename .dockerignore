@@ -1,0 +1,13 @@
+.venv
+.git
+.env
+data
+eval/results
+eval/cache
+.playwright-mcp
+docs
+**/__pycache__
+**/*.pyc
+.pytest_cache
+.ruff_cache
+.DS_Store

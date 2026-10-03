@@ -1,0 +1,12 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+data/
+eval/results/*.json
+.DS_Store
+.playwright-mcp/
+eval/results/*.jsonl
+.vscode/

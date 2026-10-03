@@ -1,0 +1,680 @@
+{
+ "0265a7186baaea35": {
+  "plan": {
+   "company": "Raaw Energy",
+   "graph": {
+    "company": "Raaw Energy",
+    "end_date": null,
+    "regulation": null,
+    "start_date": null,
+    "template": "observations_by_company",
+    "topic": null
+   },
+   "route": "both",
+   "search_query": "insanitary conditions observed by FDA investigator at Raaw Energy"
+  },
+  "question": "What insanitary conditions did the FDA investigator observe at Raaw Energy?"
+ },
+ "0c8f1f6b911684e5": {
+  "plan": {
+   "company": "Union Trade",
+   "graph": {
+    "company": "Union Trade",
+    "end_date": null,
+    "regulation": null,
+    "start_date": null,
+    "template": "observations_by_company",
+    "topic": null
+   },
+   "route": "both",
+   "search_query": "Union Trade imported dried mushrooms FDA warning letter"
+  },
+  "question": "What happened with Union Trade's imported dried mushrooms?"
+ },
+ "10dba4aa0b1ff6d5": {
+  "plan": {
+   "company": null,
+   "graph": {
+    "company": null,
+    "end_date": null,
+    "regulation": "21 CFR 211.192",
+    "start_date": null,
+    "template": "observations_by_regulation",
+    "topic": "oos_investigation"
+   },
+   "route": "both",
+   "search_query": "out-of-specification investigations at firms cited under 21 CFR 211.192"
+  },
+  "question": "What did FDA say about out-of-specification investigations at firms cited under 21 CFR 211.192?"
+ },
+ "1573949d7d4a29e0": {
+  "plan": {
+   "company": null,
+   "graph": {
+    "company": null,
+    "end_date": null,
+    "regulation": "21 CFR Part 211",
+    "start_date": null,
+    "template": "observations_by_regulation",
+    "topic": null
+   },
+   "route": "structural",
+   "search_query": "Which companies were cited under 21 CFR Part 211?"
+  },
+  "question": "Which companies were cited under 21 CFR Part 211?"
+ },
+ "1ae74a4ae3b69083": {
+  "plan": {
+   "company": "KDC/ONE",
+   "graph": {
+    "company": "KDC/ONE",
+    "end_date": null,
+    "regulation": null,
+    "start_date": null,
+    "template": "observations_by_company",
+    "topic": null
+   },
+   "route": "both",
+   "search_query": "temperature problems in KDC/ONE storage building FDA warning letter"
+  },
+  "question": "What temperature problems did FDA find in kdc/one's storage building?"
+ },
+ "1d52e48930834f09": {
+  "plan": {
+   "company": null,
+   "graph": {
+    "company": null,
+    "end_date": null,
+    "regulation": null,
+    "start_date": null,
+    "template": "observations_by_topic",
+    "topic": "component_testing"
+   },
+   "route": "structural",
+   "search_query": "component testing failures at drug manufacturers"
+  },
+  "question": "What component testing failures were cited at drug manufacturers?"
+ },
+ "22b3abc83955a9cf": {
+  "plan": {
+   "company": null,
+   "graph": {
+    "company": null,
+    "end_date": null,
+    "regulation": null,
+    "start_date": null,
+    "template": "observations_by_topic",
+    "topic": "sanitation_hygiene"
+   },
+   "route": "both",
+   "search_query": "sanitation problems cited at food and pet food facilities"
+  },
+  "question": "What sanitation problems were cited at the food and pet food facilities?"
+ },
+ "23a7033131066f7f": {
+  "plan": {
+   "company": null,
+   "graph": {
+    "company": null,
+    "end_date": null,
+    "regulation": null,
+    "start_date": null,
+    "template": "observations_by_topic",
+    "topic": "supplier_verification"
+   },
+   "route": "both",
+   "search_query": "warning letters about Foreign Supplier Verification Program"
+  },
+  "question": "Which companies received warning letters about their Foreign Supplier Verification Program?"
+ },
+ "2542cce927e455b0": {
+  "plan": {
+   "company": "Curia",
+   "graph": {
+    "company": "Curia",
+    "end_date": null,
+    "regulation": null,
+    "start_date": null,
+    "template": "observations_by_topic",
+    "topic": "data_integrity"
+   },
+   "route": "both",
+   "search_query": "data integrity issues in Curia laboratory"
+  },
+  "question": "What data integrity problems did FDA find in Curia's laboratory?"
+ },
+ "2837d961f554ac53": {
+  "plan": {
+   "company": "Raaw Energy",
+   "graph": {
+    "company": "Raaw Energy",
+    "end_date": null,
+    "regulation": null,
+    "start_date": null,
+    "template": "observations_by_topic",
+    "topic": "pathogen_contamination"
+   },
+   "route": "both",
+   "search_query": "pathogens detected in Raaw Energy pet food samples"
+  },
+  "question": "What pathogens were detected in Raaw Energy's pet food samples?"
+ },
+ "2bb5b43e65d04672": {
+  "plan": {
+   "company": "Binh Minh Tofu",
+   "graph": {
+    "company": "Binh Minh Tofu",
+    "end_date": null,
+    "regulation": null,
+    "start_date": null,
+    "template": "observations_by_company",
+    "topic": null
+   },
+   "route": "structural",
+   "search_query": "Binh Minh Tofu FDA warning letter observations"
+  },
+  "question": "List all the observations FDA cited against Binh Minh Tofu."
+ },
+ "2c2e5c819b4bd807": {
+  "plan": {
+   "company": null,
+   "graph": {
+    "company": null,
+    "end_date": null,
+    "regulation": null,
+    "start_date": null,
+    "template": "repeat_observations",
+    "topic": null
+   },
+   "route": "structural",
+   "search_query": "Which sites had repeat observations from a previous inspection?"
+  },
+  "question": "Which sites had repeat observations from a previous inspection?"
+ },
+ "3129b442fa286f5e": {
+  "plan": {
+   "company": "Bentley",
+   "graph": {
+    "company": "Bentley",
+    "end_date": null,
+    "regulation": null,
+    "start_date": null,
+    "template": "observations_by_topic",
+    "topic": "cleaning_validation"
+   },
+   "route": "both",
+   "search_query": "Bentley cleaning validation carryover limit"
+  },
+  "question": "What maximum allowable carryover limit did Bentley use in its cleaning validation?"
+ },
+ "34c45358bcf7fc0f": {
+  "plan": {
+   "company": null,
+   "graph": null,
+   "route": "semantic",
+   "search_query": "FDA description tofu cooling problem Binh Minh Tofu"
+  },
+  "question": "How did FDA describe the tofu cooling problem at Binh Minh Tofu?"
+ },
+ "3a21833f92c5658c": {
+  "plan": {
+   "company": null,
+   "graph": {
+    "company": null,
+    "end_date": null,
+    "regulation": null,
+    "start_date": null,
+    "template": "top_regulations",
+    "topic": null
+   },
+   "route": "structural",
+   "search_query": "Which regulations are cited most often across the warning letters?"
+  },
+  "question": "Which regulations are cited most often across the warning letters?"
+ },
+ "4b2408f8fda63be0": {
+  "plan": {
+   "company": null,
+   "graph": {
+    "company": null,
+    "end_date": null,
+    "regulation": null,
+    "start_date": null,
+    "template": "observations_by_topic",
+    "topic": "pathogen_contamination"
+   },
+   "route": "both",
+   "search_query": "pathogen contamination findings in FDA warning letters"
+  },
+  "question": "Which companies had pathogen contamination findings?"
+ },
+ "4e4cc4fc1af208f6": {
+  "plan": {
+   "company": null,
+   "graph": {
+    "company": null,
+    "end_date": null,
+    "regulation": null,
+    "start_date": null,
+    "template": "observations_by_topic",
+    "topic": "supplier_verification"
+   },
+   "route": "both",
+   "search_query": "supplier verification failures FDA warning letters"
+  },
+  "question": "For importers cited for supplier verification problems, what exactly did FDA say they failed to do?"
+ },
+ "4febf1ec7036bc1c": {
+  "plan": {
+   "company": null,
+   "graph": {
+    "company": null,
+    "end_date": null,
+    "regulation": null,
+    "start_date": null,
+    "template": "observations_by_topic",
+    "topic": "labeling_misbranding"
+   },
+   "route": "both",
+   "search_query": "misbranding or labeling violations FDA warning letters"
+  },
+  "question": "Which firms were cited for misbranding or labeling violations?"
+ },
+ "52a8e5732962d222": {
+  "plan": {
+   "company": null,
+   "graph": {
+    "company": null,
+    "end_date": null,
+    "regulation": null,
+    "start_date": null,
+    "template": "observations_by_topic",
+    "topic": "data_integrity"
+   },
+   "route": "both",
+   "search_query": "companies cited for data integrity issues"
+  },
+  "question": "Which companies were cited for data integrity issues?"
+ },
+ "564e2ee7d9e57ba0": {
+  "plan": {
+   "company": "Epicur",
+   "graph": {
+    "company": "Epicur",
+    "end_date": null,
+    "regulation": null,
+    "start_date": null,
+    "template": "observations_by_company",
+    "topic": null
+   },
+   "route": "both",
+   "search_query": "Epicur tablets manufactured to FDA specifications claim FDA warning letter content"
+  },
+  "question": "What did FDA say about Epicur's claim that its tablets are manufactured to FDA specifications?"
+ },
+ "5fbc986e837f1e0c": {
+  "plan": {
+   "company": null,
+   "graph": {
+    "company": null,
+    "end_date": null,
+    "regulation": "21 CFR 211.142",
+    "start_date": null,
+    "template": "observations_by_regulation",
+    "topic": null
+   },
+   "route": "structural",
+   "search_query": "21 CFR 211.142 violation"
+  },
+  "question": "What violation did FDA cite under 21 CFR 211.142?"
+ },
+ "60076d12f781d889": {
+  "plan": {
+   "company": null,
+   "graph": {
+    "company": null,
+    "end_date": "2026-09-30",
+    "regulation": null,
+    "start_date": "2026-09-01",
+    "template": "observations_in_period",
+    "topic": null
+   },
+   "route": "structural",
+   "search_query": "warning letters issued in September 2026"
+  },
+  "question": "Which warning letters were issued in September 2026?"
+ },
+ "65eb6379084023b4": {
+  "plan": {
+   "company": "Bentley",
+   "graph": {
+    "company": "Bentley",
+    "end_date": null,
+    "regulation": null,
+    "start_date": null,
+    "template": "observations_by_topic",
+    "topic": "cleaning_validation"
+   },
+   "route": "both",
+   "search_query": "Bentley cleaning validation FDA findings"
+  },
+  "question": "What did FDA find wrong with Bentley's cleaning validation?"
+ },
+ "661201401718acfb": {
+  "plan": {
+   "company": "Binh Minh",
+   "graph": {
+    "company": "Binh Minh",
+    "end_date": null,
+    "regulation": null,
+    "start_date": null,
+    "template": "observations_by_company",
+    "topic": null
+   },
+   "route": "both",
+   "search_query": "labeling problems FDA found with Binh Minh Fresh Tofu Pudding with Ginger Syrup"
+  },
+  "question": "What labeling problems did FDA find with Binh Minh's Fresh Tofu Pudding with Ginger Syrup?"
+ },
+ "7033fd86c574c75f": {
+  "plan": {
+   "company": "Bentley",
+   "graph": {
+    "company": "Bentley",
+    "end_date": null,
+    "regulation": null,
+    "start_date": null,
+    "template": "observations_by_topic",
+    "topic": "oos_investigation"
+   },
+   "route": "both",
+   "search_query": "Bentley out-of-specification investigations inadequate FDA reasons"
+  },
+  "question": "Why did FDA consider Bentley's out-of-specification investigations inadequate?"
+ },
+ "812f09a6f2ba42f9": {
+  "plan": {
+   "company": null,
+   "graph": null,
+   "route": "semantic",
+   "search_query": "Epicur buprenorphine promotional materials missing risk information"
+  },
+  "question": "What risk information was missing from Epicur's buprenorphine promotional materials?"
+ },
+ "835198220afee671": {
+  "plan": {
+   "company": "Babikian",
+   "graph": {
+    "company": "Babikian",
+    "end_date": null,
+    "regulation": null,
+    "start_date": null,
+    "template": "observations_by_topic",
+    "topic": "quality_unit"
+   },
+   "route": "both",
+   "search_query": "Babikian quality control unit inadequate"
+  },
+  "question": "Why was Babikian's quality control unit considered inadequate?"
+ },
+ "838f1101cc88dc3b": {
+  "plan": {
+   "company": "Raaw Energy",
+   "graph": {
+    "company": "Raaw Energy",
+    "end_date": null,
+    "regulation": null,
+    "start_date": null,
+    "template": "observations_by_company",
+    "topic": null
+   },
+   "route": "both",
+   "search_query": "whole genome sequencing Listeria Raaw Energy facility"
+  },
+  "question": "What did whole genome sequencing show about Listeria at Raaw Energy's facility?"
+ },
+ "87eff35022e5abac": {
+  "plan": {
+   "company": null,
+   "graph": null,
+   "route": "semantic",
+   "search_query": "Epicur Pharma compounded omeprazole injection claims"
+  },
+  "question": "What claims did Epicur Pharma make about its compounded omeprazole injection?"
+ },
+ "8971293b1d521967": {
+  "plan": {
+   "company": null,
+   "graph": {
+    "company": null,
+    "end_date": null,
+    "regulation": "21 CFR 1.502",
+    "start_date": null,
+    "template": "observations_by_regulation",
+    "topic": null
+   },
+   "route": "structural",
+   "search_query": "Which firms were cited under 21 CFR 1.502?"
+  },
+  "question": "Which firms were cited under 21 CFR 1.502?"
+ },
+ "9245800e68b7fdb8": {
+  "plan": {
+   "company": null,
+   "graph": {
+    "company": null,
+    "end_date": null,
+    "regulation": "21 CFR 503B",
+    "start_date": null,
+    "template": "observations_by_regulation",
+    "topic": null
+   },
+   "route": "both",
+   "search_query": "Epicur letter section 503B"
+  },
+  "question": "What does the Epicur letter say about section 503B?"
+ },
+ "9348021a4b812b97": {
+  "plan": {
+   "company": "Babikian",
+   "graph": {
+    "company": "Babikian",
+    "end_date": null,
+    "regulation": null,
+    "start_date": null,
+    "template": "observations_by_company",
+    "topic": null
+   },
+   "route": "both",
+   "search_query": "Babikian drug component testing FDA findings"
+  },
+  "question": "What did FDA find about Babikian's testing of drug components?"
+ },
+ "94a65eb7f3c34f76": {
+  "plan": {
+   "company": "tobacco",
+   "graph": {
+    "company": "tobacco",
+    "end_date": null,
+    "regulation": null,
+    "start_date": null,
+    "template": "observations_by_company",
+    "topic": null
+   },
+   "route": "both",
+   "search_query": "FDA warning letters to tobacco companies"
+  },
+  "question": "What warning letters did FDA issue to tobacco companies?"
+ },
+ "b4db6fca78dd09c4": {
+  "plan": {
+   "company": null,
+   "graph": null,
+   "route": "semantic",
+   "search_query": "capital of France"
+  },
+  "question": "What is the capital of France?"
+ },
+ "bf6d7d6923bf2fdd": {
+  "plan": {
+   "company": "Wellmill",
+   "graph": {
+    "company": "Wellmill",
+    "end_date": null,
+    "regulation": null,
+    "start_date": null,
+    "template": "observations_by_topic",
+    "topic": "pathogen_contamination"
+   },
+   "route": "both",
+   "search_query": "FDA requirement for 5-log pathogen reduction for Wellmill juice"
+  },
+  "question": "What does FDA require regarding a 5-log pathogen reduction for Wellmill's juice?"
+ },
+ "c1c73cfee1d47bb7": {
+  "plan": {
+   "company": "Bentley",
+   "graph": {
+    "company": "Bentley",
+    "end_date": null,
+    "regulation": null,
+    "start_date": null,
+    "template": "observations_by_company",
+    "topic": null
+   },
+   "route": "both",
+   "search_query": "Bentley marketed unapproved new drugs"
+  },
+  "question": "Which products did FDA say Bentley marketed as unapproved new drugs?"
+ },
+ "c4e027b82bdf5175": {
+  "plan": {
+   "company": null,
+   "graph": {
+    "company": null,
+    "end_date": null,
+    "regulation": "21 CFR 120.24",
+    "start_date": null,
+    "template": "observations_by_regulation",
+    "topic": null
+   },
+   "route": "both",
+   "search_query": "juice HACCP requirements under 21 CFR 120.24 violations"
+  },
+  "question": "Which juice HACCP requirements under 21 CFR 120.24 were violated?"
+ },
+ "c6024882c37f70ec": {
+  "plan": {
+   "company": "Pfizer",
+   "graph": {
+    "company": "Pfizer",
+    "end_date": null,
+    "regulation": null,
+    "start_date": null,
+    "template": "observations_by_company",
+    "topic": null
+   },
+   "route": "both",
+   "search_query": "FDA warning letter Pfizer manufacturing site findings"
+  },
+  "question": "What did FDA find at Pfizer's manufacturing site?"
+ },
+ "c6cca21312a88e35": {
+  "plan": {
+   "company": null,
+   "graph": null,
+   "route": "semantic",
+   "search_query": "Bentley Laboratories fine amount"
+  },
+  "question": "How much was Bentley Laboratories fined?"
+ },
+ "d0b46df4ab1c76a6": {
+  "plan": {
+   "company": "Wellmill",
+   "graph": {
+    "company": "Wellmill",
+    "end_date": null,
+    "regulation": null,
+    "start_date": null,
+    "template": "observations_by_company",
+    "topic": null
+   },
+   "route": "both",
+   "search_query": "Wellmill juice hazard analysis failed to address hazards"
+  },
+  "question": "Which hazards did FDA say Wellmill's juice hazard analysis failed to address?"
+ },
+ "dcb41f0b2f29bc5a": {
+  "plan": {
+   "company": null,
+   "graph": null,
+   "route": "semantic",
+   "search_query": "FDA recall Curia API products"
+  },
+  "question": "Did FDA order a recall of Curia's API products?"
+ },
+ "de650490f7d81afc": {
+  "plan": {
+   "company": null,
+   "graph": {
+    "company": null,
+    "end_date": null,
+    "regulation": "21 CFR 117.35",
+    "start_date": null,
+    "template": "observations_by_regulation",
+    "topic": null
+   },
+   "route": "both",
+   "search_query": "violations of 21 CFR 117.35 cited in FDA warning letters"
+  },
+  "question": "What violations of 21 CFR 117.35 were cited?"
+ },
+ "dea2335f00180f01": {
+  "plan": {
+   "company": null,
+   "graph": {
+    "company": null,
+    "end_date": null,
+    "regulation": null,
+    "start_date": null,
+    "template": "topic_counts",
+    "topic": null
+   },
+   "route": "structural",
+   "search_query": "Which topics are cited most often in the warning letters?"
+  },
+  "question": "Which topics are cited most often in the warning letters?"
+ },
+ "ec8a191cb2ccdc31": {
+  "plan": {
+   "company": null,
+   "graph": {
+    "company": null,
+    "end_date": null,
+    "regulation": "21 CFR 211.192",
+    "start_date": null,
+    "template": "observations_by_regulation",
+    "topic": null
+   },
+   "route": "structural",
+   "search_query": "Which observations cite 21 CFR 211.192?"
+  },
+  "question": "Which observations cite 21 CFR 211.192?"
+ },
+ "f892bffaaf300d72": {
+  "plan": {
+   "company": "Binh Minh Tofu",
+   "graph": {
+    "company": "Binh Minh Tofu",
+    "end_date": null,
+    "regulation": null,
+    "start_date": null,
+    "template": "observations_by_topic",
+    "topic": "sanitation_hygiene"
+   },
+   "route": "both",
+   "search_query": "employee hygiene problems observed by FDA at Binh Minh Tofu"
+  },
+  "question": "What employee hygiene problems did FDA observe at Binh Minh Tofu?"
+ }
+}

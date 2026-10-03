@@ -1,0 +1,43 @@
+[project]
+name = "regulatory-qa"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi",
+  "uvicorn[standard]",
+  "pydantic>=2",
+  "pydantic-settings",
+  "psycopg[binary,pool]",
+  "pgvector",
+  "neo4j",
+  "sentence-transformers",
+  "torch",  # direct so [tool.uv.sources] can pin Linux to the CPU-only index
+  "openai",
+  "httpx",
+  "beautifulsoup4",
+  "lxml",
+  "pypdf",
+  "tenacity",
+  "streamlit",
+  "python-dotenv",
+  "langfuse>=4",
+]
+
+[dependency-groups]
+dev = ["pytest", "pytest-asyncio", "ruff"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-m 'not eval'"
+markers = ["eval: regression gate over eval/questions.jsonl (needs Postgres + Neo4j with ingested data)"]
+
+# Linux (the Docker image) gets CPU-only PyTorch: the default PyPI wheels bundle ~2-3 GB of CUDA
+# libraries this project never uses. macOS keeps the regular PyPI wheels.
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu", marker = "sys_platform == 'linux'" }]

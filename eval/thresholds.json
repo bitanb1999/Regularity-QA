@@ -1,0 +1,16 @@
+{
+  "_comment": "Regression floors set a little below values measured 2026-10-03 (see eval/results/summary.md). Raise deliberately.",
+  "retrieval": {
+    "hybrid+planner+graph": {"recall@5": 0.92, "mrr@10": 0.78, "hit@5": 0.92},
+    "hybrid": {"recall@5": 0.85, "mrr@10": 0.80}
+  },
+  "min_recall_gain_over_vector": 0.10,
+  "answers": {
+    "correct_refusal": 0.85,
+    "false_refusal_max": 0.05,
+    "key_fact_recall": 0.90,
+    "faithfulness": 0.90,
+    "citation_relevance": 0.75,
+    "rejected_max": 0.05
+  }
+}

@@ -194,7 +194,17 @@ invalidates entries automatically. It is deliberately not a semantic cache: "Wha
 Bentley?" and "…at Babikian?" embed almost identically, and a near-duplicate hit would return the
 wrong company's violations.
 
-CACHE_RESULTS_PLACEHOLDER
+Before/after on repeated questions ([full table](eval/results/cache.md); 2 questions measured
+so far, the rest pending Groq's daily quota):
+
+| | Cold (miss) | Warm (hit) |
+|---|---|---|
+| Latency (median) | 20.6 s | 5 ms |
+| LLM tokens | ~2,382 | 0 |
+| Cost (list price) | $0.00053 | $0 |
+| Identical answer and citations | | 2/2 |
+
+Cold latency includes free-tier rate-limit waits; the cache only helps repeated questions.
 
 ## What failed and how I fixed it
 
