@@ -76,7 +76,7 @@ def report(rows: list[dict]) -> str:
         "# Answer cache: before / after\n",
         (f"{len(rows)} questions, each asked cold (cache miss) then warm (cache hit, different casing). "
          "Latency is end-to-end inside the API process; cost is the Groq list-price equivalent.\n"),
-        "| Question | Status | Cold (ms) | Warm (ms) | Tokens cold → warm | Cost cold → warm | Identical |",
+        "| Question | Status | Cold (ms) | Warm (ms) | Answer-model tokens cold → warm | Cost (all LLM calls) cold → warm | Identical |",
         "|---|---|---|---|---|---|---|",
     ]
     for r in rows:
@@ -86,7 +86,7 @@ def report(rows: list[dict]) -> str:
     lines += [
         "",
         f"- **Median latency:** {med('cold_ms'):,.0f} ms cold → {med('warm_ms'):,.0f} ms warm",
-        f"- **LLM tokens per repeated question:** {statistics.mean(r['cold_tokens'] for r in rows):,.0f} → 0",
+        f"- **Answer-model tokens per repeated question:** {statistics.mean(r['cold_tokens'] for r in rows):,.0f} → 0",
         f"- **Cost per repeated question:** ${statistics.mean(r['cold_cost'] for r in rows):.5f} → $0",
         (f"- **Hits:** {sum(r['hit'] for r in rows)}/{len(rows)}; identical answers and citations: "
          f"{sum(r['same_answer'] for r in rows)}/{len(rows)}"),

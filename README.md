@@ -202,17 +202,20 @@ invalidates entries automatically. It is deliberately not a semantic cache: "Wha
 Bentley?" and "…at Babikian?" embed almost identically, and a near-duplicate hit would return the
 wrong company's violations.
 
-Before/after on repeated questions ([full table](eval/results/cache.md); 2 questions measured
-so far, the rest pending Groq's daily quota):
+Before/after on 8 repeated questions ([full table](eval/results/cache.md)), each asked
+cold and then again with different casing:
 
 | | Cold (miss) | Warm (hit) |
 |---|---|---|
-| Latency (median) | 20.6 s | 5 ms |
-| LLM tokens | ~2,382 | 0 |
-| Cost (list price) | $0.00053 | $0 |
-| Identical answer and citations | | 2/2 |
+| Latency, median of all 8 | 7.0 s | 4 ms |
+| Latency, answered questions without rate-limit waits | 2.0–2.3 s | ≤ 8 ms |
+| Answer-model tokens per answered question | ~2,689 | 0 |
+| Cost per question (list price, all LLM calls) | $0.00047 | $0 |
+| Cache hits | | 8/8 |
+| Identical answer and citations | | 8/8 |
 
-Cold latency includes free-tier rate-limit waits; the cache only helps repeated questions.
+Several cold runs include Groq free-tier rate-limit waits (up to 30 s); the cache only helps
+repeated questions.
 
 ## What failed and how I fixed it
 
