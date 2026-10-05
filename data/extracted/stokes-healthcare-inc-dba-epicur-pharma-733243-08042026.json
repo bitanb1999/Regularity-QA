@@ -1,0 +1,145 @@
+{
+  "doc_id": "stokes-healthcare-inc-dba-epicur-pharma-733243-08042026",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": 2,
+  "extraction": {
+    "site": {
+      "name": "Stokes Healthcare Inc. dba Epicur Pharma",
+      "address": null,
+      "fei": null
+    },
+    "inspection": {
+      "type": "website_review",
+      "start_date": null,
+      "end_date": null,
+      "form_483_issued": false
+    },
+    "observations": [
+      {
+        "number": null,
+        "section": "Unsubstantiated Claims",
+        "title": "Unapproved compounded animal drugs marketed on website",
+        "summary": "FDA found the firm markets compounded animal drugs that are not FDA\u2011approved, conditionally approved, or indexed, violating the FD&C Act\u2019s adequate directions for use requirements.",
+        "first_block": 5,
+        "last_block": 7,
+        "regulations": [
+          "21 CFR Part 530",
+          "FD&C Act 502(a)",
+          "FD&C Act 502(bb)",
+          "FD&C Act 503B"
+        ],
+        "topics": [
+          "labeling_misbranding",
+          "false_advertising"
+        ],
+        "is_repeat": false
+      },
+      {
+        "number": null,
+        "section": "Compounded Omeprazole Injection Suspension",
+        "title": "Misbranding of compounded omeprazole injection",
+        "summary": "The website makes false or misleading claims that the compounded omeprazole injection is safe, effective, comparable, or superior to FDA\u2011approved omeprazole products, which is untrue and misbrands the drug.",
+        "first_block": 8,
+        "last_block": 14,
+        "regulations": [
+          "FD&C Act 201(n)",
+          "FD&C Act 502(a)",
+          "FD&C Act 502(bb)"
+        ],
+        "topics": [
+          "labeling_misbranding",
+          "false_advertising"
+        ],
+        "is_repeat": false
+      },
+      {
+        "number": null,
+        "section": "Compounded Buprenorphine ER Injection Solution",
+        "title": "Misbranding of compounded buprenorphine ER injection",
+        "summary": "The website asserts that the compounded buprenorphine ER injection is comparable or superior to FDA\u2011indexed products and falsely claims FDA indexing is underway and that the indexed product has a 2\u2011month shelf life.",
+        "first_block": 15,
+        "last_block": 22,
+        "regulations": [
+          "FD&C Act 201(n)",
+          "FD&C Act 502(a)",
+          "FD&C Act 502(bb)"
+        ],
+        "topics": [
+          "labeling_misbranding",
+          "false_advertising"
+        ],
+        "is_repeat": false
+      },
+      {
+        "number": null,
+        "section": "False or Misleading Risk Presentation",
+        "title": "Failure to disclose risk information for compounded products",
+        "summary": "Promotional materials for the compounded buprenorphine and omeprazole products do not adequately communicate known safety risks, including buprenorphine\u2019s Schedule\u202fIII abuse potential and associated hazards.",
+        "first_block": 23,
+        "last_block": 25,
+        "regulations": [
+          "FD&C Act 502(a)",
+          "FD&C Act 502(bb)"
+        ],
+        "topics": [
+          "false_advertising",
+          "labeling_misbranding"
+        ],
+        "is_repeat": false
+      },
+      {
+        "number": null,
+        "section": "False or Misleading Advertising About FDA and the Legality of Compounded Animal Drugs",
+        "title": "False claim of compliance with GFI\u202f#256",
+        "summary": "The website states the buprenorphine ER injection solution is \u201cCompliant with GFI #256,\u201d which is false because the product is on the list of bulk drug substances not listed and does not meet GFI\u202f#256 recommendations.",
+        "first_block": 26,
+        "last_block": 28,
+        "regulations": [
+          "FD&C Act 502(a)",
+          "FD&C Act 502(bb)"
+        ],
+        "topics": [
+          "false_advertising"
+        ],
+        "is_repeat": false
+      },
+      {
+        "number": null,
+        "section": "False or Misleading Advertising About FDA\u2019s Oversight of Compounded Drugs",
+        "title": "False statement that Epicur tablets are manufactured to FDA specifications",
+        "summary": "The website claims all Epicur tablets are manufactured to FDA specifications, which is false because FDA does not set or approve specifications for compounded drugs.",
+        "first_block": 29,
+        "last_block": 31,
+        "regulations": [
+          "FD&C Act 502(a)",
+          "FD&C Act 502(bb)"
+        ],
+        "topics": [
+          "false_advertising"
+        ],
+        "is_repeat": false
+      },
+      {
+        "number": null,
+        "section": "False or Misleading Advertising About the Legality of Compounded Animal Drugs",
+        "title": "Misleading claims about 503B exemption for animal drugs",
+        "summary": "The website asserts that animal drugs compounded in a 503B human drug outsourcing facility are legal for dispensing and unlimited hospital administration, which is false because the 503B exemptions apply only to human drugs.",
+        "first_block": 32,
+        "last_block": 37,
+        "regulations": [
+          "FD&C Act 201(n)",
+          "FD&C Act 502(a)",
+          "FD&C Act 502(bb)",
+          "FD&C Act 503B"
+        ],
+        "topics": [
+          "false_advertising",
+          "labeling_misbranding"
+        ],
+        "is_repeat": false
+      }
+    ]
+  },
+  "dropped_citations": [],
+  "gap_filled": []
+}

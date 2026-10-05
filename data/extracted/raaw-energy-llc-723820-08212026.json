@@ -1,0 +1,85 @@
+{
+  "doc_id": "raaw-energy-llc-723820-08212026",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": 2,
+  "extraction": {
+    "site": {
+      "name": "Raaw Energy LLC",
+      "address": "967 Route 524, Adelphi, New Jersey",
+      "fei": null
+    },
+    "inspection": {
+      "type": "on_site_inspection",
+      "start_date": "2026-01-13",
+      "end_date": "2026-01-22",
+      "form_483_issued": true
+    },
+    "observations": [
+      {
+        "number": null,
+        "section": "Pathogen Findings in Samples",
+        "title": "Pathogen contamination in finished pet food",
+        "summary": "State and FDA testing found Salmonella, Listeria monocytogenes, and Campylobacter jejuni in multiple pet food lots, rendering the products adulterated because they contain harmful pathogens.",
+        "first_block": 9,
+        "last_block": 24,
+        "regulations": [
+          "FD&C Act 402(a)"
+        ],
+        "topics": [
+          "pathogen_contamination"
+        ],
+        "is_repeat": false
+      },
+      {
+        "number": 1,
+        "section": "Insanitary Conditions",
+        "title": "Aerosolized water and contaminated totes during production",
+        "summary": "Investigator observed a high\u2011pressure water hose cleaning a shovel, causing overspray that contacted uncovered finished product, and cracked, uncleaned plastic totes exposing in\u2011process food to floor contaminants.",
+        "first_block": 27,
+        "last_block": 28,
+        "regulations": [
+          "FD&C Act 402(a)"
+        ],
+        "topics": [
+          "sanitation_hygiene",
+          "contamination_control"
+        ],
+        "is_repeat": false
+      },
+      {
+        "number": 2,
+        "section": "Insanitary Conditions",
+        "title": "Rusty equipment and harborage sites",
+        "summary": "Investigator observed rust on food\u2011contact surfaces of grinders, chutes, and a pitchfork, providing harborage areas for pathogens in the manufacturing environment.",
+        "first_block": 29,
+        "last_block": 30,
+        "regulations": [
+          "FD&C Act 402(a)"
+        ],
+        "topics": [
+          "sanitation_hygiene",
+          "contamination_control"
+        ],
+        "is_repeat": false
+      },
+      {
+        "number": 3,
+        "section": "Insanitary Conditions",
+        "title": "Improper temperature control during distribution",
+        "summary": "Finished frozen pet food was shipped in unrefrigerated trucks without controls to maintain appropriate time\u2011and\u2011temperature conditions, allowing potential pathogen growth during transport.",
+        "first_block": 31,
+        "last_block": 31,
+        "regulations": [
+          "FD&C Act 402(a)"
+        ],
+        "topics": [
+          "sanitation_hygiene",
+          "pathogen_contamination"
+        ],
+        "is_repeat": false
+      }
+    ]
+  },
+  "dropped_citations": [],
+  "gap_filled": []
+}

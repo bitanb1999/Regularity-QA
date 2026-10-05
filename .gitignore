@@ -4,7 +4,11 @@ __pycache__/
 *.pyc
 .pytest_cache/
 .ruff_cache/
-data/
+# Public FDA letters and their cached LLM extractions are committed so a fresh clone can
+# rebuild the database without scraping or LLM calls; anything else under data/ stays local.
+data/*
+!data/raw/
+!data/extracted/
 eval/results/*.json
 .DS_Store
 .playwright-mcp/

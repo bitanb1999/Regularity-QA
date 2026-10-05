@@ -1,0 +1,86 @@
+{
+  "doc_id": "union-trade-inc-729071-08272026",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": 2,
+  "extraction": {
+    "site": {
+      "name": "Union Trade Inc.",
+      "address": "333 City Blvd W Ste 1210, Orange CA 92868-5908",
+      "fei": null
+    },
+    "inspection": {
+      "type": "records_review",
+      "start_date": "2026-04-06",
+      "end_date": "2026-04-07",
+      "form_483_issued": true
+    },
+    "observations": [
+      {
+        "number": 1,
+        "section": null,
+        "title": "Failure to develop, maintain, and follow an FSVP",
+        "summary": "The firm did not develop, maintain, and follow a Foreign Supplier Verification Program for the listed imported foods, including crisp radish, peanuts in shell, and subtropical fruit.",
+        "first_block": 9,
+        "last_block": 12,
+        "regulations": [
+          "21 CFR 1.502",
+          "FD&C Act 805"
+        ],
+        "topics": [
+          "supplier_verification"
+        ],
+        "is_repeat": false
+      },
+      {
+        "number": 2,
+        "section": null,
+        "title": "Failure to document corrective actions for adulterated dried mushrooms",
+        "summary": "The firm did not document any corrective actions after discovering dried mushrooms with undeclared sulfites that led to two Class 2 recalls.",
+        "first_block": 13,
+        "last_block": 14,
+        "regulations": [
+          "21 CFR 1.508",
+          "FD&C Act 403(w)",
+          "FD&C Act 418",
+          "FD&C Act 419"
+        ],
+        "topics": [
+          "supplier_verification"
+        ],
+        "is_repeat": false
+      },
+      {
+        "number": 3,
+        "section": null,
+        "title": "Failure to conduct or document hazard analyses for imported foods",
+        "summary": "The firm did not conduct a hazard analysis for each imported food nor document review of a qualified individual's hazard analysis as required.",
+        "first_block": 15,
+        "last_block": 15,
+        "regulations": [
+          "21 CFR 1.504"
+        ],
+        "topics": [
+          "hazard_analysis"
+        ],
+        "is_repeat": false
+      },
+      {
+        "number": 4,
+        "section": null,
+        "title": "Failure to perform required foreign supplier verification activities",
+        "summary": "The firm did not document determination or performance of appropriate supplier verification activities for dried mushrooms and lacked written procedures for verification as required.",
+        "first_block": 16,
+        "last_block": 17,
+        "regulations": [
+          "21 CFR 1.506"
+        ],
+        "topics": [
+          "supplier_verification"
+        ],
+        "is_repeat": false
+      }
+    ]
+  },
+  "dropped_citations": [],
+  "gap_filled": []
+}

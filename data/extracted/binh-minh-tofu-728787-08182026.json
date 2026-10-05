@@ -1,0 +1,202 @@
+{
+  "doc_id": "binh-minh-tofu-728787-08182026",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": 2,
+  "extraction": {
+    "site": {
+      "name": "Binh Minh Tofu",
+      "address": "1180 Tully Rd, Suites A, B, and C, San Jose, CA 95122",
+      "fei": null
+    },
+    "inspection": {
+      "type": "on_site_inspection",
+      "start_date": "2026-03-02",
+      "end_date": "2026-03-06",
+      "form_483_issued": true
+    },
+    "observations": [
+      {
+        "number": 1,
+        "section": "Current Good Manufacturing Practice (21 CFR Part 117, Subpart B)",
+        "title": "Improper cooling of cooked tofu creates food safety hazard",
+        "summary": "FDA observed that the cooling process for freshly made tofu did not achieve required temperature reductions, and the firm failed to provide supporting data.",
+        "first_block": 10,
+        "last_block": 17,
+        "regulations": [
+          "21 CFR 117.40",
+          "21 CFR 117.80"
+        ],
+        "topics": [
+          "process_validation"
+        ],
+        "is_repeat": false
+      },
+      {
+        "number": 2,
+        "section": "Current Good Manufacturing Practice (21 CFR Part 117, Subpart B)",
+        "title": "Inadequate cleaning and sanitation of utensils and equipment",
+        "summary": "The firm did not clean and sanitize food\u2011contact surfaces in accordance with 21\u202fCFR\u202f117.35(a) and failed to demonstrate effective sanitation per 21\u202fCFR\u202f117.35(d).",
+        "first_block": 18,
+        "last_block": 28,
+        "regulations": [
+          "21 CFR 117.35"
+        ],
+        "topics": [
+          "sanitation_hygiene"
+        ],
+        "is_repeat": false
+      },
+      {
+        "number": 3,
+        "section": "Current Good Manufacturing Practice (21 CFR Part 117, Subpart B)",
+        "title": "Employee hygienic practices not adequate",
+        "summary": "Employees touched food\u2011contact surfaces with gloved hands, handled sticky equipment, and wore jewelry, indicating insufficient hygienic practices.",
+        "first_block": 29,
+        "last_block": 35,
+        "regulations": [
+          "21 CFR 117.10"
+        ],
+        "topics": [
+          "sanitation_hygiene"
+        ],
+        "is_repeat": false
+      },
+      {
+        "number": 4,
+        "section": "Current Good Manufacturing Practice (21 CFR Part 117, Subpart B)",
+        "title": "Equipment and utensils not designed for proper cleaning",
+        "summary": "Several pieces of equipment, including piping, molds, and containers, had cracks, rough welds, or design flaws that prevent adequate cleaning and sanitation.",
+        "first_block": 36,
+        "last_block": 44,
+        "regulations": [
+          "21 CFR 117.40"
+        ],
+        "topics": [
+          "equipment_facilities"
+        ],
+        "is_repeat": false
+      },
+      {
+        "number": 5,
+        "section": "Current Good Manufacturing Practice (21 CFR Part 117, Subpart B)",
+        "title": "Facility conditions unsanitary and in disrepair",
+        "summary": "Floors were worn with standing water, walls had openings, doorframes were decaying, and paint was peeling, creating conditions that could adulterate food.",
+        "first_block": 45,
+        "last_block": 52,
+        "regulations": [
+          "21 CFR 117.35"
+        ],
+        "topics": [
+          "sanitation_hygiene"
+        ],
+        "is_repeat": false
+      },
+      {
+        "number": 1,
+        "section": "Misbranding Violations",
+        "title": "Product contains undeclared artificial color additive",
+        "summary": "Fresh Tofu Pudding with Ginger Syrup (pandan flavor) is misbranded because it contains an artificial coloring not declared on the label.",
+        "first_block": 54,
+        "last_block": 54,
+        "regulations": [
+          "21 CFR 101.22",
+          "21 CFR Part 101",
+          "FD&C Act 403(k)"
+        ],
+        "topics": [
+          "labeling_misbranding"
+        ],
+        "is_repeat": false
+      },
+      {
+        "number": 2,
+        "section": "Misbranding Violations",
+        "title": "False or misleading labeling of Daily Fresh Soybean Cake",
+        "summary": "The label for Daily Fresh Soybean Cake \u201cfresh tofu\u201d makes false or misleading statements about the product.",
+        "first_block": 55,
+        "last_block": 55,
+        "regulations": [
+          "21 CFR 101.95",
+          "21 CFR Part 101",
+          "FD&C Act 403(a)"
+        ],
+        "topics": [
+          "labeling_misbranding",
+          "false_advertising"
+        ],
+        "is_repeat": false
+      },
+      {
+        "number": 3,
+        "section": "Misbranding Violations",
+        "title": "Nutrition labeling does not meet RACC requirements",
+        "summary": "The serving size for Fresh Tofu Pudding with Ginger Syrup is not based on the Reference Amount Customarily Consumed as required by 21\u202fCFR\u202f101.9(b)(2).",
+        "first_block": 56,
+        "last_block": 56,
+        "regulations": [
+          "21 CFR 101.9",
+          "FD&C Act 403(q)"
+        ],
+        "topics": [
+          "labeling_misbranding"
+        ],
+        "is_repeat": false
+      },
+      {
+        "number": 4,
+        "section": "Misbranding Violations",
+        "title": "Labeling fails to meet finishing statement requirements",
+        "summary": "Several products are misbranded because the label does not contain the required finishing statement.",
+        "first_block": 58,
+        "last_block": 58,
+        "regulations": [
+          "21 CFR 101.15",
+          "21 CFR Part 101",
+          "FD&C Act 403(f)"
+        ],
+        "topics": [
+          "labeling_misbranding"
+        ],
+        "is_repeat": false
+      },
+      {
+        "number": 5,
+        "section": "Misbranding Violations",
+        "title": "Label claims not supported by evidence",
+        "summary": "Multiple products are misbranded because the label makes claims that are not substantiated.",
+        "first_block": 59,
+        "last_block": 62,
+        "regulations": [
+          "21 CFR 101.4",
+          "21 CFR Part 101",
+          "FD&C Act 403(i)"
+        ],
+        "topics": [
+          "labeling_misbranding",
+          "false_advertising"
+        ],
+        "is_repeat": false
+      },
+      {
+        "number": null,
+        "section": "Misbranding Violations",
+        "title": "Label missing common or usual name",
+        "summary": "FDA found the Fresh Tofu Pudding with Ginger Syrup (pandan flavor) label does not bear the common or usual name of the food, violating section 403(i)(1) of the FD&C Act and 21 CFR 101.4.",
+        "first_block": 64,
+        "last_block": 64,
+        "regulations": [
+          "21 CFR 101.4",
+          "FD&C Act 403(i)"
+        ],
+        "topics": [
+          "labeling_misbranding"
+        ],
+        "is_repeat": false
+      }
+    ]
+  },
+  "dropped_citations": [],
+  "gap_filled": [
+    64
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "doc_id": "wellmill-llc-dba-vitamix-laboratories-725655-04202026",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": 2,
+  "extraction": {
+    "site": {
+      "name": "Wellmill, LLC dba Vitamix Laboratories",
+      "address": "106 Lake Ave S Suite 4-5, Nesconset, NY",
+      "fei": null
+    },
+    "inspection": {
+      "type": "on_site_inspection",
+      "start_date": "2025-12-03",
+      "end_date": "2025-12-12",
+      "form_483_issued": true
+    },
+    "observations": [
+      {
+        "number": null,
+        "section": "Juice HACCP (21 CFR Part 120)",
+        "title": "Inadequate hazard analysis and HACCP plan",
+        "summary": "FDA found the firm did not conduct an adequate hazard analysis or maintain a HACCP plan for its juice products, failing to identify biological and physical hazards introduced during non\u2011aseptic blending and glass bottling.",
+        "first_block": 11,
+        "last_block": 18,
+        "regulations": [
+          "21 CFR 120.3",
+          "21 CFR 120.7",
+          "21 CFR 120.8"
+        ],
+        "topics": [
+          "hazard_analysis"
+        ],
+        "is_repeat": false
+      },
+      {
+        "number": null,
+        "section": "Juice HACCP (21 CFR Part 120)",
+        "title": "Failure to achieve required 5\u2011log pathogen reduction",
+        "summary": "The firm blends and fills juice at ambient temperature without applying a validated process that achieves the required 5\u2011log reduction of pertinent pathogens, as mandated by 21\u202fCFR\u202f120.24(a).",
+        "first_block": 19,
+        "last_block": 19,
+        "regulations": [
+          "21 CFR 120.24"
+        ],
+        "topics": [
+          "process_validation",
+          "pathogen_contamination"
+        ],
+        "is_repeat": false
+      },
+      {
+        "number": null,
+        "section": "Juice HACCP (21 CFR Part 120)",
+        "title": "Non\u2011compliance with single\u2011facility requirement",
+        "summary": "FDA determined the firm has not demonstrated compliance with the single\u2011facility requirement that the 5\u2011log pathogen reduction and final product packaging occur within one CGMP\u2011compliant facility.",
+        "first_block": 20,
+        "last_block": 20,
+        "regulations": [
+          "21 CFR 120.24"
+        ],
+        "topics": [
+          "process_validation"
+        ],
+        "is_repeat": false
+      }
+    ]
+  },
+  "dropped_citations": [],
+  "gap_filled": []
+}

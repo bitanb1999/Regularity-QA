@@ -1,0 +1,70 @@
+{
+  "doc_id": "shouly-import-corp-731741-06262026",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": 2,
+  "extraction": {
+    "site": {
+      "name": "Shouly Import Corp.",
+      "address": "371 Lakeview Ave, Clifton, NJ 07011-4037",
+      "fei": null
+    },
+    "inspection": {
+      "type": "records_review",
+      "start_date": "2026-04-30",
+      "end_date": "2026-04-30",
+      "form_483_issued": true
+    },
+    "observations": [
+      {
+        "number": null,
+        "section": null,
+        "title": "Failure to develop an FSVP for Roasted White Sesame",
+        "summary": "FDA found that Shouly Import Corp. did not develop, maintain, or follow a Foreign Supplier Verification Program for the imported Roasted White Sesame.",
+        "first_block": 9,
+        "last_block": 9,
+        "regulations": [
+          "21 CFR 1.502",
+          "FD&C Act 805"
+        ],
+        "topics": [
+          "supplier_verification"
+        ],
+        "is_repeat": false
+      },
+      {
+        "number": null,
+        "section": null,
+        "title": "Failure to develop an FSVP for Feta 500GM",
+        "summary": "FDA found that Shouly Import Corp. did not develop, maintain, or follow a Foreign Supplier Verification Program for the imported Feta 500GM.",
+        "first_block": 10,
+        "last_block": 10,
+        "regulations": [
+          "21 CFR 1.502",
+          "FD&C Act 805"
+        ],
+        "topics": [
+          "supplier_verification"
+        ],
+        "is_repeat": false
+      },
+      {
+        "number": null,
+        "section": null,
+        "title": "Failure to develop an FSVP for Classic Baklava",
+        "summary": "FDA found that Shouly Import Corp. did not develop, maintain, or follow a Foreign Supplier Verification Program for the imported Classic Baklava.",
+        "first_block": 11,
+        "last_block": 11,
+        "regulations": [
+          "21 CFR 1.502",
+          "FD&C Act 805"
+        ],
+        "topics": [
+          "supplier_verification"
+        ],
+        "is_repeat": false
+      }
+    ]
+  },
+  "dropped_citations": [],
+  "gap_filled": []
+}

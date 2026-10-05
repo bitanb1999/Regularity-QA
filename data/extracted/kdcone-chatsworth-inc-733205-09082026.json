@@ -1,0 +1,72 @@
+{
+  "doc_id": "kdcone-chatsworth-inc-733205-09082026",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": 2,
+  "extraction": {
+    "site": {
+      "name": "kdc/one Chatsworth, Inc.",
+      "address": "20320 Prairie St., Chatsworth, CA",
+      "fei": "1000519695"
+    },
+    "inspection": {
+      "type": "on_site_inspection",
+      "start_date": "2026-03-31",
+      "end_date": "2026-04-03",
+      "form_483_issued": true
+    },
+    "observations": [
+      {
+        "number": 1,
+        "section": null,
+        "title": "Failure to perform release testing and establish stability program",
+        "summary": "The firm did not perform appropriate laboratory testing to confirm identity and strength of each batch before release and lacked an adequate written stability testing program with reliable methods.",
+        "first_block": 10,
+        "last_block": 26,
+        "regulations": [
+          "21 CFR 211.165",
+          "21 CFR 211.166",
+          "FD&C Act 501(a)"
+        ],
+        "topics": [
+          "laboratory_controls",
+          "stability_testing",
+          "contamination_control"
+        ],
+        "is_repeat": false
+      },
+      {
+        "number": 2,
+        "section": null,
+        "title": "Failure to investigate out\u2011of\u2011specification results",
+        "summary": "The firm failed to thoroughly investigate unexplained discrepancies, including viscosity OOS results from stability testing, and did not provide adequate root\u2011cause analysis, CAPA, or justification.",
+        "first_block": 27,
+        "last_block": 35,
+        "regulations": [
+          "21 CFR 211.192"
+        ],
+        "topics": [
+          "oos_investigation",
+          "quality_unit"
+        ],
+        "is_repeat": false
+      },
+      {
+        "number": 3,
+        "section": null,
+        "title": "Improper storage conditions for drug products",
+        "summary": "The firm stored drug products at temperatures exceeding labeled and internal limits, failing to maintain appropriate temperature, humidity, and light conditions and not including storage requirements on COAs.",
+        "first_block": 36,
+        "last_block": 47,
+        "regulations": [
+          "21 CFR 211.142"
+        ],
+        "topics": [
+          "storage_conditions"
+        ],
+        "is_repeat": false
+      }
+    ]
+  },
+  "dropped_citations": [],
+  "gap_filled": []
+}

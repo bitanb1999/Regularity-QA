@@ -98,8 +98,16 @@ Requires Docker and a [Groq API key](https://console.groq.com).
 cp .env.example .env                       # add GROQ_API_KEY; set passwords
 docker compose up -d --build               # Postgres, Neo4j, API (:8000), UI (:8501)
 
-docker compose exec api python -m app.ingest.fda_scraper 10   # fetch up to 10 letters (max 15)
-docker compose exec api python -m app.ingest.pipeline         # parse → extract → chunk → embed → load
+docker compose exec api python -m app.ingest.pipeline         # parse → chunk → embed → load
+```
+
+The repo includes the 10 indexed letters (`data/raw`, public FDA documents) and their cached LLM
+extractions (`data/extracted`), so the pipeline rebuilds both databases in about 20 seconds with
+no scraping and no LLM calls. To fetch more letters (up to 15) and extract them:
+
+```bash
+docker compose exec api python -m app.ingest.fda_scraper 15
+docker compose exec api python -m app.ingest.pipeline
 ```
 
 Open the UI at http://localhost:8501 and the API docs at http://localhost:8000/docs.
@@ -253,6 +261,8 @@ Each of these was found by looking at actual outputs or eval numbers, not by ins
 ## Limitations
 
 - 10 letters; the eval set was also used for tuning, so treat the numbers as optimistic.
+- The letters are FDA's public record and name individuals (recipients, FDA staff); they are
+  included as published.
 - Groq's free tier allows ~200k tokens/day for the answer model, roughly 80 uncached answers.
 - The judge shares a model family with the answerer (a different family didn't fit the free tier's
   limits).

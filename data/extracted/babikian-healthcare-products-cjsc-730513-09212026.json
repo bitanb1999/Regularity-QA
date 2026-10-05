@@ -1,0 +1,71 @@
+{
+  "doc_id": "babikian-healthcare-products-cjsc-730513-09212026",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": 2,
+  "extraction": {
+    "site": {
+      "name": "Babikian Healthcare Products CJSC",
+      "address": null,
+      "fei": "3027526825"
+    },
+    "inspection": {
+      "type": "records_review",
+      "start_date": null,
+      "end_date": null,
+      "form_483_issued": false
+    },
+    "observations": [
+      {
+        "number": 1,
+        "section": null,
+        "title": "Failure to test identity of each component and verify supplier data",
+        "summary": "The firm did not conduct any test to verify the identity of each component of a drug product and did not validate or periodically verify the reliability of supplier test analyses.",
+        "first_block": 11,
+        "last_block": 14,
+        "regulations": [
+          "21 CFR 211.84"
+        ],
+        "topics": [
+          "component_testing",
+          "supplier_verification"
+        ],
+        "is_repeat": false
+      },
+      {
+        "number": 2,
+        "section": null,
+        "title": "Failure to test finished product for identity, strength, and microbiology before release",
+        "summary": "The firm failed to perform appropriate laboratory testing for each batch to confirm identity, strength, and absence of objectionable microorganisms prior to product release.",
+        "first_block": 15,
+        "last_block": 17,
+        "regulations": [
+          "21 CFR 211.165"
+        ],
+        "topics": [
+          "laboratory_controls"
+        ],
+        "is_repeat": false
+      },
+      {
+        "number": 3,
+        "section": null,
+        "title": "Quality control unit did not exercise required authority and responsibilities",
+        "summary": "The quality control unit failed to ensure compliance with CGMP, including lacking written procedures, complete batch records, stability data, and adequate authority.",
+        "first_block": 18,
+        "last_block": 23,
+        "regulations": [
+          "21 CFR 211.100",
+          "21 CFR 211.137",
+          "21 CFR 211.188",
+          "21 CFR 211.22"
+        ],
+        "topics": [
+          "quality_unit"
+        ],
+        "is_repeat": false
+      }
+    ]
+  },
+  "dropped_citations": [],
+  "gap_filled": []
+}
